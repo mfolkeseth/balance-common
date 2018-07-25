@@ -225,19 +225,7 @@ const INITIAL_STATE = {
   accountInfo: {
     address: '',
     accountType: '',
-    assets: [
-      {
-        name: 'Ethereum',
-        symbol: 'ETH',
-        address: null,
-        decimals: 18,
-        balance: {
-          amount: '',
-          display: '0.00 ETH',
-        },
-        native: null,
-      },
-    ],
+    assets: [],
     total: '———',
   },
   uniqueTokens: [],
